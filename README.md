@@ -1,2 +1,3 @@
-# Task_1
-Creation of a Basic Form using HTML.
+# webdev-class-tasks
+
+This repository contains all the web development tasks, including HTML, CSS, MongoDB, Express, React, and Node.js.
