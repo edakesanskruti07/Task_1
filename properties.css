@@ -1,0 +1,169 @@
+/* .label1{
+     text-align: center; 
+    background-color: rgb(255, 205, 240);
+    margin-left: 550;
+    margin-right: 550;
+    text-shadow: 0ch;
+}
+.label11{
+    text-decoration-color: cornsilk;
+    -moz-text-decoration-style: double;
+    text-shadow: 100cap;
+    background-color: hotpink;
+        text-align: center;
+
+}
+.label2{
+    /* text-align:center;
+    background-color:rgb(166, 235, 235); 
+     margin-left: 550;
+    margin-right: 550;
+
+}
+
+.a
+{
+    padding: 5px;
+    font-size: 11px;
+    border: 1px solid;
+    border-radius: 5px;
+    align-self: center;
+    color:black;
+    background-color: ghostwhite;
+   
+    
+}
+
+body{
+    height: 100vh;
+    display: flex;
+     justify-content: center; 
+    align-items: center; 
+}
+
+.form-box{
+    border:2px solid black;
+    padding:20px;
+    width:700px;
+    background-color: #f0f0f0;
+  
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1)
+
+}
+form{
+      display:flex;
+    flex-direction:column;
+    gap: 15px;
+
+}*/
+
+
+.label1 {
+    background-color:rgb(244, 164, 204);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 50%; /* Centering support */
+}
+
+.label11 {
+    background-color: rgb(244, 235, 239);
+    text-align: center;
+}
+
+.label2 {
+    text-align: center;
+}
+
+.a {
+    padding: 5px;
+    font-size: 11px;
+    border: 1px solid;
+    border-radius: 5px;
+    color: black;
+    background-color: ghostwhite;
+    display: block;
+    margin: 0 auto;
+    width: 50%; /* To help with centering */
+    /* ---------------------------------------- */
+    
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 60%;
+    background-color: #fefefe;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+
+
+
+}
+
+body {
+    height: 100vh;
+     font-family: 'Poppins', sans-serif;
+}
+
+.form-box {
+    border: 2px solid black;
+    padding: 20px;
+    width: 700px;
+    background-color: #f0f0f0;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Important for global center */
+    .form-box {
+    background: rgba(255, 255, 255, 0.9); /* semi-transparent white */
+    padding: 30px;
+    width: 600px;
+    margin: 50px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+     width: 500px; /* reduce from 700 */
+  padding: 20px;
+}
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    display: block;
+    text-align: center;
+}
+.a:focus {
+    border-color: #ff66a3;
+    outline: none;
+    box-shadow: 0 0 8px rgba(255, 102, 163, 0.6);
+}
+
+
+
+
+
+
+
+
+input[type="submit"] {
+    background-color: rgb(99, 69, 231);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #7defa9;
+    transform: scale(1.05);
+}
